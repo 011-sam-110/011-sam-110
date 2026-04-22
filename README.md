@@ -58,20 +58,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=011-sam-110&show_icons=true&hide_border=true&title_color=FF6B35&icon_color=FF6B35&text_color=F5F5F5&bg_color=0E0E0E&count_private=true" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=011-sam-110&layout=compact&hide_border=true&title_color=FF6B35&text_color=F5F5F5&bg_color=0E0E0E&langs_count=6" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=011-sam-110&theme=dark&hide_border=true&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35&background=0E0E0E&dates=888888" alt="GitHub Streak" />
-</div>
-
----
-
 ## 📚 Currently Learning
 
 - Deep learning fundamentals (neural networks, backpropagation)
@@ -86,7 +72,7 @@
 - **Silent Data Hackathon 2026** — Built AI compliance auditor with Gemini 2.0 + blockchain verification
 - **Sussex Hackathon 2026** — Solo 24h entry: full-stack AI desktop assistant for accessibility
 - **3 AI projects shipped** in Year 1 of university
-- Working with cutting-edge models: GPT-4o, GPT-4.1-mini, Gemini 2.0 Flash
+- Experienced with Claude as a development platform — building agentic workflows with persistent memory stores, parallel sub-agent orchestration, MCP server integrations, structured prompt engineering, context window management, and custom skills; comfortable running agents in series, parallel, and as background workers to automate complex multi-step tasks
 
 ---
 
