@@ -86,5 +86,6 @@
 **→ Full portfolio at [011-sam-110.github.io](https://011-sam-110.github.io)**
 
 *"Building things. Learning things. Shipping things."*
+*— Sam, 2026*
 
 </div>
