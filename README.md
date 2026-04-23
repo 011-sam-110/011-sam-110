@@ -20,8 +20,15 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-011--sam--110.github.io-FF6B35?style=flat-square&logo=github&logoColor=white)](https://011-sam-110.github.io)
 [![Email](https://img.shields.io/badge/Email-sam.poplett15%40gmail.com-E63946?style=flat-square&logo=gmail&logoColor=white)](mailto:sam.poplett15@gmail.com)
 [![Visitors](https://komarev.com/ghpvc/?username=011-sam-110&style=flat-square&color=FF6B35&label=Profile+Views)](https://github.com/011-sam-110)
+[![MonkeyType](https://img.shields.io/badge/MonkeyType-011sam110-FF6B35?style=flat-square&logoColor=white)](https://monkeytype.com/profile/011sam110)
 
 </div>
+
+---
+
+## ⌨ Typing Speed
+
+<img src="assets/monkeytype-card.svg" alt="MonkeyType Stats" />
 
 ---
 
