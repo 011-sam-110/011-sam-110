@@ -26,10 +26,10 @@
   <text x="80" y="116" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#888888">wpm</text>
   <text x="80" y="133" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#AAAAAA">15 sec</text>
   <text x="80" y="150" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="11" fill="#666666">99% acc</text>
-  <text x="195" y="98" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="30" font-weight="700" fill="#FF6B35">131</text>
+  <text x="195" y="98" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="30" font-weight="700" fill="#FF6B35">135</text>
   <text x="195" y="116" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#888888">wpm</text>
   <text x="195" y="133" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#AAAAAA">30 sec</text>
-  <text x="195" y="150" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="11" fill="#666666">98% acc</text>
+  <text x="195" y="150" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="11" fill="#666666">93% acc</text>
   <text x="310" y="98" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="30" font-weight="700" fill="#FF6B35">152</text>
   <text x="310" y="116" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#888888">wpm</text>
   <text x="310" y="133" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#AAAAAA">25 words</text>
@@ -43,5 +43,5 @@
   <line x1="22" y1="160" x2="473" y2="160" stroke="#2A2A2A" stroke-width="1"/>
 
   <!-- footer -->
-  <text x="247" y="171" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#555555">51 tests completed · auto-updated daily</text>
+  <text x="247" y="171" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#555555">53 tests completed · auto-updated daily</text>
 </svg>
