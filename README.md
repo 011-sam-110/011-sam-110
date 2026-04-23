@@ -15,7 +15,7 @@
 
 ### CS with AI · University of Sussex · Year 1
 
-*Building AI agents. Winning hackathons. Shipping things.*
+*Building things. Winning things. Shipping things.*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-011--sam--110.github.io-FF6B35?style=flat-square&logo=github&logoColor=white)](https://011-sam-110.github.io)
 [![Email](https://img.shields.io/badge/Email-sam.poplett15%40gmail.com-E63946?style=flat-square&logo=gmail&logoColor=white)](mailto:sam.poplett15@gmail.com)
