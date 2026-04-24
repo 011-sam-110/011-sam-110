@@ -637,5 +637,38 @@
   }
   </script>
 
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script>
+  /* ── GSAP SCROLLTRIGGER PARALLAX ─────────────────────────── */
+  if (!window.matchMedia('(prefers-reduced-motion:reduce)').matches && typeof gsap !== 'undefined') {
+    gsap.registerPlugin(ScrollTrigger);
+
+    /* Headline: layered parallax depth — name drifts slower than subtitle */
+    gsap.to('.hero-name', {
+      y: 150,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '#hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1.5
+      }
+    });
+
+    gsap.to('.hero-sub', {
+      y: 85,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '#hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1.5
+      }
+    });
+  }
+  </script>
+
 </body>
 </html>
