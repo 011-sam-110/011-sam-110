@@ -540,7 +540,7 @@
 
   <script type="module">
   /* ── MOTION (motion.dev) ─────────────────────────────────── */
-  import { animate, inView, stagger, scroll } from "https://cdn.jsdelivr.net/npm/motion@11/+esm";
+  import { animate, inView, stagger } from "https://cdn.jsdelivr.net/npm/motion@12/+esm";
 
   if (window.matchMedia('(prefers-reduced-motion:reduce)').matches) {
     document.querySelectorAll('.hero-name,.hero-sub,.hero-role,.hero-tag,.hero-ctas,.scroll-hint,.reveal,.sk-tag')
@@ -553,8 +553,14 @@
     const SP_HERO = { type:'spring', stiffness:70,  damping:16 };
     const SP_FAST = { type:'spring', stiffness:300, damping:20 };
 
-    /* ─ Scroll progress bar ──────────────────────────────── */
-    scroll(animate('#progress', { scaleX:[0,1] }, { ease:'linear' }));
+    /* ─ Scroll progress bar (native — most reliable) ────────── */
+    const progressEl = document.getElementById('progress');
+    if (progressEl) {
+      window.addEventListener('scroll', () => {
+        const pct = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+        progressEl.style.transform = `scaleX(${Math.min(pct, 1)})`;
+      }, { passive: true });
+    }
 
     /* ─ Hero stagger entrance ────────────────────────────── */
     [
