@@ -39,7 +39,6 @@ currently_learning:
   - Deep learning fundamentals
   - Advanced computer vision
   - System design & architecture
-fun_fact: "Won 2 hackathons in Year 1 — solo entry included"
 ```
 
 ---
@@ -62,7 +61,11 @@ fun_fact: "Won 2 hackathons in Year 1 — solo entry included"
 
 ## ⌨ Typing Speed
 
+<div align="center">
+
 <img src="assets/monkeytype-card.svg" alt="MonkeyType Stats" />
+
+</div>
 
 ---
 
