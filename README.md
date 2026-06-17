@@ -1,4 +1,10 @@
+<div align="center">
+
 # Hi, I'm Sam 👋
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=4361EE&center=true&vCenter=true&width=620&lines=Full-Stack+Developer+%C2%B7+AI+Engineer;CS+with+AI+%C2%B7+University+of+Sussex;I+build+real+things%2C+not+demos.)](https://github.com/011-sam-110)
+
+</div>
 
 Full-stack developer & **AI engineer**, studying *CS with AI* at the University of Sussex. I build
 full-stack web apps, AI-powered tools, and computer-vision systems — and I care about shipping real,
