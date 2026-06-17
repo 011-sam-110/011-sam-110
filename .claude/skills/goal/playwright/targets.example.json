@@ -1,0 +1,33 @@
+{
+  "_comment": "Example animation-targets spec. The /goal PLAN agent generates a real one of these per run from the site it is about to verify, then the probe-runner agent writes it to disk and runs: node animation-probe.mjs --url http://localhost:3000 --targets <thisfile> --out <artifacts>",
+  "viewport": { "width": 1440, "height": 900 },
+  "durationMs": 2500,
+  "fps": 6,
+  "targets": [
+    {
+      "id": "hero-headline",
+      "trigger": { "type": "load" },
+      "observe": { "selector": "h1", "props": ["opacity", "transform"], "isCanvas": false },
+      "expect": { "fadesIn": true, "slidesUp": true, "settlesWithin": "2s" }
+    },
+    {
+      "id": "hero-3d-scene",
+      "trigger": { "type": "load" },
+      "observe": { "selector": "canvas", "isCanvas": true },
+      "expect": { "rotatesContinuously": true, "noWebGLErrors": true }
+    },
+    {
+      "id": "projects-reveal-on-scroll",
+      "trigger": { "type": "scrollTo", "selector": "#projects" },
+      "observe": { "selector": "#projects .project-card", "props": ["opacity", "transform"] },
+      "expect": { "staggerFadeIn": true }
+    },
+    {
+      "id": "project-card-hover",
+      "trigger": { "type": "hover", "selector": "#projects .project-card" },
+      "observe": { "selector": "#projects .project-card", "props": ["transform"] },
+      "durationMs": 1200,
+      "expect": { "liftsOnHover": true }
+    }
+  ]
+}
