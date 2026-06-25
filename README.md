@@ -34,11 +34,11 @@ working software, not demos.
 
 **Languages**
 
-[![Languages](https://skillicons.dev/icons?i=python,ts,js,java,c)](https://skillicons.dev)
+[![Languages](https://skillicons.dev/icons?i=python,ts,js,java)](https://skillicons.dev)
 
 **AI / ML · Web · Tools**
 
-[![Stack](https://skillicons.dev/icons?i=pytorch,opencv,fastapi,react,nextjs,tailwind,nodejs,git,linux)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=pytorch,opencv,fastapi,react,tailwind,git,linux)](https://skillicons.dev)
 
 ---
 
