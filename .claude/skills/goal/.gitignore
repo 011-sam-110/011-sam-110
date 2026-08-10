@@ -1,0 +1,6 @@
+# Playwright harness deps + downloaded browsers
+playwright/node_modules/
+# self-test output
+playwright/selftest-out/
+# any stray artifacts
+**/*.webm

@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-deep:        #1a0f35;
+  --bg-mid:         #341C67;
+  --bg-surface:     #472F5B;
+  --accent-lilac:   #C4AEF4;
+  --accent-mauve:   #CCA4B4;
+  --accent-citrine: #DCCE40;
+  --text-primary:   #EDE8F8;
+  --text-muted:     #9B8FBE;
+}
+
+* {
+  cursor: none !important;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  /* Lead with the self-hosted next/font face (--font-mono). The bare
+     'Space Mono' literal used to come first, which never matched the hashed
+     self-hosted family and made the browser probe fonts.gstatic.com at runtime
+     (the capture console error). var(--font-mono) -> monospace only. */
+  font-family: var(--font-mono), monospace;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* Grid overlays */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(196, 174, 244, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(196, 174, 244, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.bg-grid-sm {
+  background-image:
+    linear-gradient(to right, rgba(196, 174, 244, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(196, 174, 244, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Glowing border animation */
+.border-glow {
+  position: relative;
+}
+.border-glow::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, #C4AEF4, #472F5B, #C4AEF4, #DCCE40);
+  background-size: 300% 300%;
+  animation: gradient-x 4s ease infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Section label */
+.section-label {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-lilac);
+}
+
+/* Typewriter cursor */
+.typewriter-cursor::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+  color: var(--accent-lilac);
+}
+
+/* Scanlines overlay */
+.scanlines::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(0,0,0,0.04) 3px,
+    rgba(0,0,0,0.04) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--bg-surface); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-lilac); }
+
+/* Selection */
+::selection { background: rgba(196, 174, 244, 0.25); color: var(--text-primary); }
+
+/* Bob animation for scroll chevron */
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(6px); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+@keyframes gradient-x {
+  0%, 100% { background-position: 0% 50%; }
+  50%       { background-position: 100% 50%; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; }
+  50%       { opacity: 1; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "goal-animation-probe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-contained Playwright harness that verifies animations for the /goal skill (kept out of the portfolio's own deps).",
+  "scripts": {
+    "selftest": "node animation-probe.mjs --selftest",
+    "setup": "npm install && npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
