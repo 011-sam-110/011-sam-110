@@ -16,7 +16,7 @@ CS-with-AI student at the University of Sussex who builds live-data web apps and
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**TrafficNerd v2**](https://github.com/011-sam-110/TrafficNerd-V2) | A satellite globe of ~12,000 open government traffic cameras, live aircraft and orbiting satellites, plus 33 opt-in hazard layers in a customisable console. Every feed is keyless and attributed. 899 passing tests. [Live demo](https://traffic-nerd-v2.vercel.app). | Next.js 15 · TypeScript · MapLibre GL |
+| [**Provenance**](https://github.com/011-sam-110/TrafficNerd-V2) | A satellite globe of ~12,000 open government traffic cameras, live aircraft and orbiting satellites, plus 33 opt-in hazard layers in a customisable console. Every feed is keyless and attributed. 899 passing tests. [Live demo](https://traffic-nerd-v2.vercel.app). | Next.js 15 · TypeScript · MapLibre GL |
 | [**The Navigator**](https://github.com/011-sam-110/Sussex-Hackathon-2026-Solo-Entry-) | Accessibility desktop assistant: GPT-4o Vision reads the screen aloud and drives precise clicks and keystrokes. Solo 24-hour hackathon build. | Python · FastAPI · GPT-4o |
 | [**AI Banking Compliance Auditor**](https://github.com/011-sam-110/2026-Silent-Data-Hackathon-Entry) | AML/KYC compliance demo: Gemini 2.0 Flash document analysis, a Markov credit-risk model, and SHA-256 audit-trail hashing. Built at the Silent Data Hackathon. | Python · Streamlit · Gemini |
 | [**Motion-Detecting LLM Assistant**](https://github.com/011-sam-110/Motion-Detecting-LLM-Assistant) | Face-activated AI agent with neural TTS that comments on its surroundings when it goes idle. Multi-threaded vision to LLM to speech pipeline. | Python · OpenCV · GPT-4o-mini |
