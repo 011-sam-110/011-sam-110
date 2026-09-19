@@ -2,8 +2,6 @@
 
 # Hi, I'm Sam 👋
 
-CS-with-AI student at the University of Sussex with too much free time. 
-
 </div>
 
 ## 🔭 My work:
