@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "skills": {
+    "animate": {
+      "source": "delphi-ai/animate-skill",
+      "sourceType": "github",
+      "computedHash": "6cad510ef13753d01be3a463870bfa040e2ee4ddd8f2c1606ce75112a524dfc7"
+    },
+    "emil-design-eng": {
+      "source": "emilkowalski/skill",
+      "sourceType": "github",
+      "skillPath": "skills/emil-design-eng/SKILL.md",
+      "computedHash": "ac3fc5b4e206488ffc408a2806f829bb2e5eaf518fded09be34790685c2b3a0d"
+    }
+  }
+}
