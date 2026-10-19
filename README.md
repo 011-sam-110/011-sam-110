@@ -2,7 +2,4 @@
 
 # Hi, I'm Sam 👋
 
-
-## 📫 Reach me
-
-- 📫 Email - [sam.poplett15@gmail.com](mailto:sam.poplett15@gmail.com)
+You can reach me on instagram: sam.p8728
