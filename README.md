@@ -2,4 +2,4 @@
 
 # Hi, I'm Sam 👋
 
-You can reach me on instagram: sam.p8728
+I like making businesses more money with AI. You can mail me at: sam.poplett.personal@gmail.com
